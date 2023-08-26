@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="320" name="MobileOptimized"/>
+<meta content="width=device-width, user-scalable=no, initial-scale=1.0" name="viewport"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="Barnes &amp; Noble" name="author"/>
+<title>Browse Books by Subject and Genres | Barnes &amp; Noble®</title>
+<!-- set meta description -->
+<meta content="Conveniently browse books by subjects and genre at BN.com. Find and discover books in your favorite genre with Barnes &amp; Noble." name="description"/>
+<meta content="books categories, book subjects, browse books" name="keywords"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="@BNBuzz" name="twitter:site"/>
+<meta content="Browse Books by Subject and Genres" property="og:title"/>
+<meta content="Conveniently browse books by subjects and genre at BN.com. Find and discover books in your favorite genre with Barnes &amp; Noble." property="og:description"/>
+<meta content="product" property="og:type"/>
+<meta content="https://www.barnesandnoble.com/h/books/browse" property="og:url"/>
+<meta content="https://dispatch.barnesandnoble.com/content/dam/ccr/social/BN_facebook_1200x630.jpg" property="og:image"/>
+<meta content="Barnes &amp; Noble" property="og:site_name"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-192x192.jpg" rel="icon" sizes="192x192"/>
+<meta content="Barnes &amp; Noble" name="apple-mobile-web-app-title"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/iphone-icon.png" rel="apple-touch-icon"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-180x180.jpg" rel="apple-touch-icon" sizes="180x180"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-76x76.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="//img.images-bn.com/static/redesign/srcs/images/bn-icon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="//css.css-bn.com/static/redesign/release/css/bn-responsive.min.css?v9.1.18&amp;setviewtype=full" rel="stylesheet" type="text/css"/>
+<style>
+
+@-webkit-keyframes bugfix { from { padding: 0px; } to { padding: 0px; } }
+label span { -webkit-animation: bugfix infinite 1ms; }
+</style>
+<link href="https://dispatch.barnesandnoble.com/etc/designs/ccr/static/html/css/2021/sitemaps.css?dgh=1019&amp;v=02" rel="stylesheet" type="text/css"/>
+<script>
+var SITE_PROTOCOL = document.location.protocol||window.location.protocol||'http:',
+SITE_DOMAIN = document.location.hostname||window.location.hostname||'www.barnesandnoble.com',
+SITE_PORT = document.location.port||window.location.port||'80',
+THIS_PATH = document.location.pathname||window.location.pathname||'/cartridges/OneColumnPage/OneColumnPage.jsp',
+SITE_DOMAIN_URL = THIS_PAGE = SITE_ROOT = port = "",
+STATIC_ASSETS_PATH = "/static",
+webContextRoot ='',
+staticAssetVersion = '?v9.1.18',
+XHR_FOLDER ='/xhr',
+XHR_HANDLER_PATH = XHR_FOLDER+'/handler.jsp',
+PAGE_DEBUG_MODE = false;
+// indexExchngHeaderBiddingJsUrl="";
+// enableIndexExchangeJS="";
+if(SITE_PROTOCOL=="https:") {
+XHR_FOLDER = '/xhr';
+XHR_HANDLER_PATH = XHR_FOLDER+'/handler.jsp';
+}
+if(SITE_PORT.length > 0 && SITE_PORT!=80)
+port = ":"+SITE_PORT;
+SITE_DOMAIN_URL = SITE_PROTOCOL + "//" + SITE_DOMAIN + port;
+SITE_ROOT = SITE_DOMAIN_URL + webContextRoot;
+THIS_PAGE = SITE_DOMAIN_URL + THIS_PATH;
+port = null;
+function consoleLog() {
+if (PAGE_DEBUG_MODE!==true) return;
+if (typeof console != "undefined" && typeof console.log != "undefined") {
+if (typeof console.log.apply != "undefined") {
+console.log.apply(console,arguments);
+} else {
+for(var i=0;i<arguments.length;i++) {
+var arg = arguments[i];
+console.log(arg);
+}
+}
+}
+}
+function consoleWarn() {
+if (PAGE_DEBUG_MODE!==true) return;
+if (typeof console == "undefined") return;
+if (typeof console.warn != "undefined" && typeof console.warn.apply != "undefined") {
+console.warn.apply(console,arguments);
+} else {
+consoleLog.apply(console,arguments);
+}
+}
+function consoleError() {
+if (PAGE_DEBUG_MODE!==true) return;
+if (typeof console == "undefined") return;
+if (typeof console.error != "undefined" && typeof console.error.apply != "undefined") {
+console.error.apply(console,arguments);
+} else {
+consoleWarn.apply(console,arguments);
+}
+}
+var captchaV3Enabled = 'true';
+
+function addOnLoadEvent(func) {
+var oldonload = window.onload;
+var newonload = function(){
+/* if(enableIndexExchangeJS ==="true" && indexExchngHeaderBiddingJsUrl !=="" ){
+// ATG-24008 : Add header bidding management from IndexExchange
+headerBiddingJS();
+}  */
+func();
+};
+if (typeof window.onload != 'function') {
+window.onload = newonload;
+} else {
+window.onload = function() {
+if (oldonload) {
+oldonload();
+}
+newonload();
+}
+}
+}
+</script>
+<!-- migration changes SLR-92 -->
+<script src="//js.js-bn.com/static/redesign/release/js/head.js?v9.1.18"></script><!--// migration changes SLR-92 -->
+<script>
+function updateMiniCartCount(count) {
+if(typeof count != 'undefined' && count != $.trim($('.bagTotal').text())) {
+$('.bagTotal').text(count);
+}
+}
+function miniCartEvents($container) {
+var spinnerSrc = "",
+spinnerImgPath = $('input[name=spinnerPath]').val();
+if(spinnerImgPath && spinnerImgPath.indexOf('null') < 0 && spinnerImgPath.indexOf('undefined') < 0 ){
+spinnerSrc = spinnerImgPath;
+}
+var $spinner = $('<div class="spinner spinner__large"><img tabindex="0" src="' + spinnerSrc + '" role="presentation" aria-live="polite" aria-label="Laoding..."></div>').addClass('mini-cart-spinner'),
+$quantityUpdateForms = $('.mini-cart-quantity-update');
+BN.MiniCart = new MiniCart('#miniCart', '#shoppingBag');
+// shopping bag flyout only
+$('#bagContentsContainer').find('.mini-cart-quantity-update').each(function() {
+BN.uXHR.Form.apply(this);
+});
+$quantityUpdateForms.find('.product-quantity').each(function() {
+var $this = $(this);
+$this.data('initial-value', $this.val());
+});
+$quantityUpdateForms.find('input[type=submit]').on('click', function(e) {
+var $theForm = $(this).closest('form'),
+$eleProductQuantity = $theForm.find('.product-quantity').first(),
+productQuantity = $eleProductQuantity.length ? $eleProductQuantity.val().trim() : '';
+if (productQuantity.length == 0) {
+e.preventDefault();
+/* reset to the initial quantity if the user tried to submit an empty value */
+if ($eleProductQuantity.length && $eleProductQuantity.data('initial-value')) {
+$eleProductQuantity.val($eleProductQuantity.data('initial-value'));
+}
+}
+});
+$quantityUpdateForms.on('submit', function() {
+var $this = $(this),
+$miniCartItem = $this.parents('#miniCart');
+$spinner.appendTo($miniCartItem);
+}).on('amplifiFormSuccess', function(e, response) {
+//Adobe Analytics: updates cart object
+if(typeof s_setP !== 'undefined') updateAnalyticsCart();
+// check to shopping bag reload flag is on page
+// if shopping bag is updated in dropdown and page
+// contains the items, it must be refreshed
+if ($("#shoppingBagReloadFlag").length){
+consoleLog("Reload Page to update shopping bag.");
+location.reload(true);
+} else {
+$('#miniCartItems .miniCartItems-list').load(webContextRoot+"/checkout/includes/get-mini-cart-commerce-items.jsp", miniCartEvents);
+$('#subtotalLine .subtotal-amount').html('$'+response.data.subtotal);
+$('#subtotalLine .item-count').html('('+response.data.totalQuantity+' items)');
+$('.bagTotal').html(response.data.totalQuantity);
+if(response.data.totalQuantity < 1) {
+//DONT SHOW CART IF TYPE AHEAD IS OPEN
+if($('#headSearchTypeAheadHolder').is(':visible')) {
+loadHeaderElement($("#bagContentsContainer"), webContextRoot+"/includes/shopping-bag.jsp", true, true);
+} else {
+loadHeaderElement($("#bagContentsContainer"), webContextRoot+"/includes/shopping-bag.jsp", true, false);
+}
+}
+}
+$spinner.remove();
+if(e.target.id && /remove/i.test(e.target.id) || $(this).data('form-type') === 'remove') {
+$(this).trigger('analytics-mini-cart-remove');
+} else {
+$(this).trigger('analytics-mini-cart-add');
+}
+}).on('amplifiFormError', function(e, response) {
+$spinner.remove();
+});
+}
+function loadHeaderElement($container, frag, miniCartLoaded, hideCart) {
+$.ajax({
+url: frag,
+cache: false,
+type: "get",
+beforeSend: function() {
+if(!$('#miniCart').length) {
+/*  if (hideCart) {
+$container.html('<div id="miniCart" style="height: 150px; display:none;"><div class="triangle-up"></div><div class="mini-cart-spinner"></div>');
+} else {
+$container.html('<div id="miniCart" style="height: 150px"><div class="triangle-up"></div><div class="mini-cart-spinner"></div>');
+}
+*/
+}
+}
+}).done(function(data) {
+$container.html(data);
+if (hideCart) {
+$("#miniCart").css("display", "none");
+}
+if (miniCartLoaded) {
+updateMiniCartCount($('#miniCartQuantityVal').val());
+miniCartEvents();
+}
+//to update the mini cart count after redesign
+$('.cart-slide-out__banner').find('.bagTotal').html($('#bagTotal').html());
+if($('body').hasClass('landingPage') || $('body').hasClass('shopping-bag') || $('body').hasClass('homepage')){
+$('#checkoutFormSB .sign-in-checkout').attr('data-params','{"tplParams":{"isCheckout":"true","isNew":"true"}}');
+}
+/*                 //to bind the spinner functionality
+$('[data-trigger="spinner"]').spinner('delay', 0).spinner('changed', function (e) {
+$(e.target).trigger('change');
+}); */
+});
+}
+function displayHeaderFooterData(dataObj) {
+try {
+if(typeof dataObj != 'undefined' && dataObj != '') {
+//set login status variables
+if(typeof BN != 'undefined') {
+BN.isExplicitlyLoggedIn = dataObj.isSecureLogin;
+BN.isSoftLoggedIn = dataObj.isSoftLoggedIn;
+} else {
+$(document).ready(function() {
+BN.isExplicitlyLoggedIn = dataObj.isSecureLogin;
+BN.isSoftLoggedIn = dataObj.isSoftLoggedIn;
+});
+}
+//populate sign in/account links data
+//$('#authBar').html(dataObj.signInHtml);
+if($('.account-links').find('#signInLink').length > 0){
+$('#signInLink').remove();
+}
+if($('.account-links').find('.account-sign-in').length > 0){
+$('.account-sign-in').remove();
+}
+$('.account-links').prepend(dataObj.signInHtml);
+$('#myAccountMenu').html(dataObj.accountLinksHtml);
+if(dataObj.isSecureLogin === true){
+$('.account-links').attr('data-user-state','signed-in');
+}
+$(document).on('click', '#myAccountMenu #myAccountLink', function(){
+$(this).addClass('focus');
+});
+updateMiniCartCount(dataObj.cartQuantity);
+HEADERLOADED = true;
+HEADERDATA = '';
+bnLoggingEnabled = dataObj.bnLoggingEnabled;
+$("#myAccountMenu").click(function(e) {
+if($(e.target).attr('id') == 'myAccountLink')
+e.preventDefault();
+$("#myAccountLinks").toggleClass("showMyAccountLinks");
+});
+}
+} catch(err) {
+console.log(err);
+}
+}
+function loadEmailSignUp() {
+// check for email signup class in CQ template
+if ($(".global-footer-email-signup").length){
+// bind form to framework
+var $form = $('#emailSignupForm');
+BN.Validate.Listen($form);
+BN.uXHR.Form.apply($form);
+// success action
+$('#emailSignupForm').on('amplifiFormSuccess', function() {
+$('#emailSignupDiv').html("<span>Thank you for submitting your email address.</span>");
+$('.global-footer-email-signup').find('.mini-cart-spinner').remove();
+}).on("amplifiFormBeforeSerialize", function(){
+$('#emailSignupForm').find('.handler-email-signup').remove();
+$('#emailSignupForm').append('<input class="handler-email-signup" type="hidden" name="amplifiHandler" value="/atg/userprofiling/ProfileFormHandler.emailSignup">');
+}).on("amplifiFormError",function(event,err,xhr,status,msgs){
+var errors = msgs.items;
+BN.Validate.DisplayErrors(this, errors);
+$form.find('input[type=text]').addClass('user-error');
+$('.global-footer-email-signup').find('.mini-cart-spinner').remove();
+}).on("amplifiFormBeforeSubmit",function(){
+consoleLog("Calling displaySpinner");
+$form.find('input[type=text]').removeClass('user-error');
+$('.global-footer-email-signup').append($('<div/>').addClass('mini-cart-spinner'));
+});
+}
+}
+/* ATG-10818: Pre-populate footer email field only when user is logged in */
+function populateEmailSignUp(data) {
+$(document).ready(function() {
+if(data.isSecureLogin){
+$('#emailAddr').val(data.email);
+}
+});
+}
+//load header elements for akamai caching
+//SIGN IN Links, PTA Link, EMAIL SIGN UP, CART DETAILS
+function loadDynamicHeaderElements(callback) {
+$.ajax({
+url: '/xhr/header-footer-data.jsp',
+cache: false,
+type: "get",
+dataType: 'json'
+}).done(function(data) {
+HEADERDATA = data;
+HEADERLOADED = false;
+if($('#userLinks').length) {
+displayHeaderFooterData(HEADERDATA);
+} else {
+$(document).ready(function() {
+displayHeaderFooterData(HEADERDATA);
+});
+}
+populateEmailSignUp(data);
+});
+$(document).ready(function() {
+loadEmailSignUp();
+//miniCartEvents();
+});
+}
+</script>
+<script>
+
+loadDynamicHeaderElements();
+</script>
+<!-- ATG-25918 -->
+<script src="//assets.adobedtm.com/d55bc227c346/0aaa96eebcd0/launch-d923d12e2af4.min.js"></script>
+<!-- ATG-26292 -->
+<script async="" src="https://apps.bazaarvoice.com/deployments/barnesandnoble/local_implementation/production/en_US/bv.js"></script>
+<script>
+var enableGoogleAdsAfterPageLoad = true;
+</script>
+<script>
+var asyncRelatedAdsEnabled = true;
+</script>
+<script type="text/javascript">
+/*$(document).ready(function() {
+$('#primaryNav').on('hover touchstart', function() {
+$('.nav-menu').css('display', 'block');
+});
+$('#primaryNav li.nav-item a').on('focus', function() {
+$('.nav-menu').css('display', 'block');
+});
+});*/
+function set_cookie (cvalue) {
+
+var cname = "internalCampaign";
+cvalue = cvalue.replace(/ /gi,'-').replace(/[`~!@#^&*()|+\=ï¿½ï¿½?;:'",<>\{\}\[\]\\\/]/gi, '').toLowerCase()
+cvalue = 'ocp_' +  cvalue;
+//cvalue = encodeURI(cvalue);
+var d = new Date();
+d.setTime(d.getTime() + (1*24*60*60*1000));
+var curCookie = cname + "=" + cvalue +
+"; expires=" + d.toGMTString() +
+"; path=" + "/"  +
+"; domain=" + SITE_DOMAIN;
+document.cookie = curCookie;
+
+}
+// ATG-24008 : Add header bidding management from IndexExchange
+/*  function headerBiddingJS(){
+var indxexctag=document.createElement("script");
+indxexctag.type = "text/javascript";
+indxexctag.async=true;
+indxexctag.src = indexExchngHeaderBiddingJsUrl;
+var node = document.getElementsByTagName("head")[0];
+node.appendChild(indxexctag);
+} */
+</script>
+<script>window['adrum-start-time'] = new Date().getTime();</script>
+<!-- ATG-10336 Tactical fix starts -->
+<!-- change for ATG-18885 -->
+<link href="https://www.barnesandnoble.com/b/books/_/N-29Z8q8" rel="canonical"/>
+<!-- ATG-10336 Tactical fix starts -->
+<script async="" src="//vs-js.bn-web.com/static/redesign/srcs/js/vendor/com.liquidpixels.Resolve.js?v9.1.18" type="text/javascript"></script>
+<script crossorigin="" src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin="" src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="//js.js-bn.com/static/redesign/release/js/commerce-header-footer.js?v9.1.18"></script>
+<script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"679473",ustr:"",originlat:"0",clientrtt:"17",ghostip:"49.44.141.92",ipv6:false,pct:"10",clientip:"49.36.187.99",requestid:"150ce35",region:"34883",protocol:"",blver:14,akM:"a",akN:"ae",akTT:"O",akTX:"1",akTI:"150ce35",ai:"238807",ra:"false",pmgn:"HTTP2Traffic",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+</head>
+<body class="landingPage searchResultsPage bncom-responsive" data-global-svg-assets-url="/static/redesign/srcs/images/global-assets.svg">
+<script>
+if (performance.mark === undefined) {
+console.log("performance.mark not supported");
+}else{
+performance.mark("Above_the_fold_loading_starts");
+}
+if(typeof performance.measure === 'undefined')
+{
+console.log("Create Measures: performance.measure not supported");
+}
+</script>
+<script>
+if(typeof performance.mark !== 'undefined')
+{
+/* ATG-24315 Fix start */
+var bodyClass = 'landingPage searchResultsPage';
+var indexOfPDPPageClass = bodyClass.indexOf('pdpPage');
+if( indexOfPDPPageClass > -1){
+/* ATG-24315 Fix end */
+performance.mark('Cover_Image/Video_loading_starts');
+performance.mark("Addtocart_loading_starts");
+}
+performance.mark("Global_Header_loading_starts");
+}
+</script>
+<script defer="" src="https://www.google.com/recaptcha/api.js?render=6LdspeQUAAAAADObEWJ6oo7G-QvgkhiLgMgDXn_v">
+</script>
+<script>
+var captchaV3ApiKey= '6LdspeQUAAAAADObEWJ6oo7G-QvgkhiLgMgDXn_v';
+</script>
+<div id="header"></div>
+<script type="text/javascript">
+/*CommerceHeaderFooter is the name of the library that we defined in webpack.config.js */
+CommerceHeaderFooter.showHeader('header', {env:'prod', consumer_host:'https://www.barnesandnoble.com', styling:'responsive'});
+</script>
+<div id="screen"></div>
+<main class="bg-whole-site-color h-page-padding" role="main">
+<div class="html"><div class="html-embed-container"><div id="globalnavCQbanner"><div class="globalnavCQbanner cqtemplate hidden"><style type="text/css">.globalCQbanner{max-width: 100%; margin: 0 auto 11px ;min-height:33px; text-align: center;}.globalCQbanner.cqMobile {max-width: 640px; margin: 0 auto 5px;}.globalCQbannerlink { display:block;text-decoration: none; border:1px solid transparent; line-height: 0;}.globalCQbannerlink:hover,.globalCQbannerlink:focus{border-color:#7c83bc;text-decoration: none;}.globalCQbanner img {max-width: 100%;width: 100%;}a.globalCQbannerlink.noPointer{cursor:default;} </style><div class="globalCQbanner" id="globalCQbanner"></div></div><script type="text/javascript">
+(function(){
+$(".globalnavCQbanner:not(.loaded)").each(function(index){
+var mainpathname="/b/valentines-day-gifts-for-all-ages/_/N-2lg7"
+var vdaybopis='<a class="globalCQbannerlink" href="https://www.barnesandnoble.com/b/valentines-day-gifts-for-all-ages/_/N-2lg7" onclick="set_cookie(\'globalCQbanner_valentines_bopis_imagetext\');"><picture><source srcset="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/02/PROD-22483_ValentinesDay2-08B-mobile.jpg" media="(max-width: 600px)"><source srcset="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/02/PROD-22483_ValentinesDay2-08B.jpg" media="(min-width: 601px)"><img src="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/02/PROD-22483_ValentinesDay2-08B-mobile.jpg" alt="FAll in Love with Books! Find the Perfect Gift for Your Valentine With Buy Online Pick Up In Store Shop Valentines Day"></picture></a>';
+var freeship='<a class="globalCQbannerlink noPointer"><picture><source srcset="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/01/PROD-21662_FreeShipping_01-18-mobile.jpg" media="(max-width: 600px)"><source srcset="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/01/PROD-21662_FreeShipping_01-18.jpg" media="(min-width: 601px)"><img src="https://dispatch.barnesandnoble.com/content/dam/ccr/global/global-nav-banner/2022/01/PROD-21662_FreeShipping_01-18-mobile.jpg" alt="Free Shipping on Orders of $35 or More. Exclusions apply. See shipping page for details."></picture></a>';
+if( window.location.pathname !== mainpathname ){
+$(".globalCQbanner").html(vdaybopis);
+$(this).removeClass('hidden');
+}else if( window.location.pathname === mainpathname ){
+$(".globalCQbanner").html(freeship);
+$(this).removeClass('hidden'); 
+}else{
+$( ".globalnavCQbanner" ).hide();
+}
+});
+}());
+</script> </div></div></div><script>
+if(typeof performance.mark !== 'undefined' && typeof performance.measure !== 'undefined')
+{
+performance.mark("Global_Header_loading_ends");
+performance.measure(
+"globalHeaderDur",
+"Global_Header_loading_starts",
+"Global_Header_loading_ends"
+);
+}
+</script>
+<div class="browser-notice ie-outdated hidden">
+<div>
+<span class="x">×</span>
+<p>
+<strong>Uh-oh, it looks like your Internet Explorer is out of date.</strong>
+<br/><br/>
+For a better shopping experience, please <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie/" target="_blank">upgrade now.</a>
+</p>
+</div>
+</div>
+<script>
+// migration changes SRL-92
+/*  if($.browser.msie && parseInt($.browser.version, 10) <=10){
+if(!$('.ie-outdated').is('visible')){
+$('.ie-outdated').show();
+}
+}    */
+if (navigator.userAgent.indexOf('MSIE') != -1)
+var detectIEregexp = /MSIE (\d+\.\d+);/ //test for MSIE x.x
+else // if no "MSIE" string in userAgent
+var detectIEregexp = /Trident.*rv[ :]*(\d+\.\d+)/ //test for rv:x.x or rv x.x where Trident string exists
+if(detectIEregexp.test(navigator.userAgent)){ //if some form of IE
+var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+if (ieversion<=10){
+if(!$('.ie-outdated').is('visible')){
+$('.ie-outdated').show();
+}
+}
+}
+// migration changes end SRL-92
+</script>
+<noscript>
+<div class="browser-notice">
+<div>
+<p class="circle">!</p>
+<p>  Javascript is not enabled in your browser. Enabling JavaScript in your browser will allow you to experience all the features of our site.
+
+  <a href="https://help.barnesandnoble.com">Learn how to enable JavaScript on your browser</a>
+</p>
+</div>
+</div>
+</noscript>
+<input id="deferAdLoad" type="hidden" value="true"/>
+<input name="imagePath" type="hidden" value="/static/redesign/srcs/images/"/>
+<input name="spinnerPath" type="hidden" value="//img.images-bn.com/static/redesign/srcs/images/spinner.svg"/>
+<section class="landing-page-content" id="main-content">
+<div class="header">
+</div>
+<div class="main-content container">
+<section class="pb-xs">
+<header class="pb-xs pl-lg-xxxl pr-lg-xxxl pl-md-l pr-md-l pl-sm-s pr-sm-s" role="presentation">
+<h1>
+	Browse Books</h1></header>
+</section>
+<div class="CQSection" data-anchortag="" data-id="cqContent_CQContent" id="CQSection">
+<div class="html"><div class="html-embed-container"><section class="links-container browse clearer"><h3>Fiction &amp; Literature</h3><ul><li><a href="/b/books/literature/folklore-mythology/_/N-29Z8q8Z2geb">Folklore &amp; Mythology</a></li><li><a href="/b/books/fiction/_/N-29Z8q8Z10h8">General Fiction</a></li><li><a href="/b/books/graphic-novels-comics/_/N-29Z8q8Zucb">Graphic Novels &amp; Comics</a></li><li><a href="/b/books/fiction/historical-fiction/_/N-29Z8q8Z10nf">Historical Fiction</a></li><li><a href="/b/books/fiction/horror/_/N-29Z8q8Z1d51">Horror</a></li><li><a href="/b/books/fiction/literary-fiction/_/N-29Z8q8Z10k1">Literary Fiction</a></li><li><a href="/b/books/literature/_/N-29Z8q8Z15v3">Literature</a></li><li><a href="/b/books/graphic-novels-comics/manga/_/N-29Z8q8Zucc">Manga</a></li><li><a href="/b/books/mystery-crime/_/N-29Z8q8Z16g4">Mystery &amp; Crime</a></li><li><a href="/b/books/poetry/_/N-29Z8q8Z1pqh">Poetry</a></li><li><a href="/b/books/romance/_/N-29Z8q8Z17y3">Romance</a></li><li><a href="/b/books/science-fiction-fantasy/_/N-29Z8q8Z180l">Science Fiction &amp; Fantasy</a></li><li><a href="/b/books/fiction/thrillers/_/N-29Z8q8Z1d3u">Thrillers</a></li><li><a href="/b/books/fiction/westerns/_/N-29Z8q8Z10j9">Westerns</a></li></ul></section><section class="links-container browse clearer"><h3>Nonfiction</h3><ul><li><a href="/b/books/activity-game-books/_/N-29Z8q8Z1gj3">Activity &amp; Game Books</a></li><li><a href="/b/books/social-sciences/african-americans/_/N-29Z8q8Z1c3k">African-American Studies</a></li><li><a href="/b/books/antiques-collectibles/_/N-29Z8q8Zs45">Antiques &amp; Collectibles</a></li><li><a href="/b/books/art-architecture-photography/_/N-29Z8q8Zs9i">Art, Architecture &amp; Photography</a></li><li><a href="/b/books/new-age-alternative-beliefs/astrology-divination/_/N-29Z8q8Z1fil">Astrology &amp; Tarot</a></li><li><a href="/b/books/bibles-christianity/_/N-29Z8q8Zsj2">Bibles &amp; Christianity</a></li><li><a href="/b/books/biography/_/N-29Z8q8Zsoc">Biography</a></li><li><a href="/b/books/business/_/N-29Z8q8Zt82">Business Books</a></li><li><a href="/b/books/computers/_/N-29Z8q8Zug4">Computers</a></li><li><a href="/b/books/cookbooks-food-wine/_/N-29Z8q8Zy3b">Cookbooks, Food &amp; Wine</a></li><li><a href="/b/books/crafts-hobbies/_/N-29Z8q8Z1f43">Crafts &amp; Hobbies</a></li><li><a href="/b/books/current-affairs-politics/_/N-29Z8q8Z16st">Current Affairs &amp; Politics</a></li><li><a href="/b/books/diet-health-fitness/_/N-29Z8q8Z11ip">Diet, Health &amp; Fitness</a></li><li><a href="/b/books/education/_/N-29Z8q8Zzmg">Education</a></li><li><a href="/b/books/science-technology/engineering/_/N-29Z8q8Z2bxy">Engineering</a></li><li><a href="/b/books/reference/foreign-language-study-aids-dictionaries/_/N-29Z8q8Z1gb0">Foreign Languages</a></li><li><a href="/b/books/history/_/N-29Z8q8Z11km">History</a></li><li><a href="/b/books/home-garden/_/N-29Z8q8Z12zi">Home &amp; Garden</a></li><li><a href="/b/books/humor/_/N-29Z8q8Z15mo">Humor</a></li><li><a href="/b/books/law/_/N-29Z8q8Z1f68">Law</a></li><li><a href="/b/books/social-sciences/lgbt-studies/_/N-29Z8q8Z190n">LGBTQIA+ Studies</a></li><li><a href="/b/books/medicine-nursing/_/N-29Z8q8Z167w">Medicine &amp; Nursing Books</a></li><li><a href="/b/books/music-film-performing-arts/music/_/N-29Z8q8Z1bl4">Music</a></li><li><a href="/b/books/nature/_/N-29Z8q8Z16i5">Nature</a></li><li><a href="/b/books/new-age-alternative-beliefs/_/N-29Z8q8Z1fib">New Age &amp; Alternative Beliefs</a> </li><li><a href="/b/books/parenting-family/_/N-29Z8q8Z16ql">Parenting &amp; Family</a></li><li><a href="/b/books/music-film-performing-arts/_/N-29Z8q8Zzzc">Performing Arts</a></li><li><a href="/b/books/pets/_/N-29Z8q8Z1fjz">Pets</a></li><li><a href="/b/books/philosophy/_/N-29Z8q8Z1fe7">Philosophy</a></li><li><a href="/b/books/psychology/_/N-29Z8q8Z1fcc">Psychology</a></li><li><a href="/b/books/reference/_/N-29Z8q8Z1g9w">Reference</a></li><li><a href="/b/books/religion/_/N-29Z8q8Z17d6">Religion</a></li><li><a href="/b/books/activity-game-books/role-playing-fantasy-games/_/N-29Z8q8Z1gj4">Role-Playing &amp; Fantasy Games </a></li><li><a href="/b/books/science-technology/_/N-29Z8q8Z184l">Science &amp; Technology</a></li><li><a href="/b/books/self-help-relationships/_/N-29Z8q8Z18ly">Self-Help &amp; Relationships</a></li><li><a href="/b/books/social-sciences/_/N-29Z8q8Z18q3">Social Sciences</a></li><li><a href="/b/books/social-sciences/sociology/_/N-29Z8q8Z197k">Sociology</a></li><li><a href="/b/books/sports/_/N-29Z8q8Z19id">Sports</a></li><li><a href="/b/books/study-aids-test-prep/_/N-29Z8q8Z1gke">Study Aids &amp; Test Prep</a></li><li><a href="/b/books/transportation/_/N-29Z8q8Z2e1z">Transportation</a></li><li><a href="/b/books/travel/_/N-29Z8q8Z1ary">Travel</a></li><li><a href="/b/books/social-sciences/true-crime/_/N-29Z8q8Z2cm6">True Crime</a></li><li><a href="/b/books/self-help-relationships/weddings/_/N-29Z8q8Z1c1r">Weddings</a></li><li><a href="/b/books/social-sciences/womens-studies/_/N-29Z8q8Z191e">Women's Studies</a></li></ul></section><section class="links-container browse clearer"><h3>Kids &amp; Teens</h3><ul><li><a href="/b/books/kids/_/N-7Z29Z8q8Ztu1">Ages 0-2</a></li><li><a href="/b/books/kids/_/N-8Z29Z8q8Ztu1">Ages 3-5</a></li><li><a href="/b/books/kids/_/N-9Z29Z8q8Ztu1">Ages 6-8</a></li><li><a href="/b/books/kids/_/N-aZ29Z8q8Ztu1">Ages 9-12</a></li><li><a href="/b/books/teens/_/N-29Z8q8Z19r4">Teens &amp; YA</a></li><li><a href="/b/books/kids/_/N-29Z8q8Ztu1">All Kids' Books</a></li></ul></section><section class="links-container browse clearer"><h3>Blogs</h3><ul><li><a href="http://www.barnesandnoble.com/blog/">B&amp;N Reads—Our Book Blog</a></li><li><a href="https://press.barnesandnoble.com/bnpress-blog/">B&amp;N Press Blog</a></li><li><a href="https://www.barnesandnoble.com/blog/tag/bn-podcast/">B&amp;N Podcast</a></li></ul></section><section class="links-container browse clearer"><h3>Customer Favorites</h3><ul><li><a href="/b/books/_/N-1fZ29Z8q8">B&amp;N Top 100</a></li><li><a href="/b/barnes-noble-classics/_/N-rqv">B&amp;N Classics</a></li><li><a href="/b/barnes-noble-collectible-editions/_/N-2cnb">B&amp;N Collectible Editions</a></li><li><a href="/b/barnes-noble-exclusives/_/N-2o2b">B&amp;N Exclusives</a></li><li><a href="/b/books/awards/best-books-of-the-year/_/N-29Z8q8Z1qrh">Best Books of the Year</a></li><li><a href="/b/black-voices/_/N-2uv2">Black Voices</a></li><li><a href="/b/book-annex/_/N-8qb">Book Annex</a></li><li><a href="/b/books/awards/_/N-29Z8q8Z1d6q">Book Awards</a></li><li><a href="/b/books/awards/book-club-selections/_/N-29Z8q8Z1ql1">Book Club Selections</a></li><li><a href="/b/books/_/N-26Z29Z8q8">Coming Soon</a></li><li><a href="/h/coupons-deals">Coupons &amp; Deals</a></li><li><a href="/b/books/awards/barnes-noble-discover-great-new-writers/_/N-29Z8q8Z1qo8">Discover Pick of the Month</a></li><li><a href="/b/escape-into-a-good-book/_/N-2uk9">Escape into a Good Book</a></li><li><a href="/b/everyones-talking-about/_/N-2tyk">Everyone's Talking About</a></li><li><a href="/b/foreign-language-books/_/N-2v86">Foreign Language Books</a></li><li><a href="/b/gift-cards/_/N-8rg">Gift Cards</a></li><li><a href="/b/find-more-books-to-love/_/N-2t94">If You Liked...</a></li><li><a href="/b/libros-en-espanol/_/N-1p6a">Libros en español</a></li><li><a href="/b/books/_/N-1sZ29Z8q8">New Releases</a></li><li><a href="/b/the-new-york-times-bestsellers/_/N-1p3n">NY Times® Bestsellers</a></li><li><a href="/b/books/book-club-selections/oprahs-book-club/_/N-29Z8q8Z1qld">Oprah's Book Club</a></li><li><a href="/b/our-monthly-picks/_/N-2trn">Our Monthly Picks</a></li><li><a href="/b/page-screen/_/N-2ftm">Page &amp; Screen</a></li><li><a href="/b/paperback/_/N-2cnh">The Paperback Store</a></li><li><a href="/b/rare-collectors-books/_/N-2lmg">Rare &amp; Collector's Books</a></li><li><a href="/b/signed-books-at-bncom/_/N-rp2">Signed Books</a></li><li><a href="/b/the-trend-shop/_/N-2mwh">The Trend Shop</a></li><li><a href="/b/things-to-do-at-home/_/N-2ugd">Things to Do at Home</a></li></ul></section><section class="links-container browse clearer"><h3>Other Formats</h3><ul><li><a href="/b/audiobook/_/N-2cnc">Audiobooks (CD)</a></li><li><a href="/b/boxed-sets/_/N-2gx7">Boxed Sets</a></li><li><a href="/b/calendars/_/N-8rb">Calendars</a></li><li><a href="/b/nook-books/_/N-8qa">NOOK Books</a></li><li><a href="/b/large-print/books/_/N-1pu1Z29Z8q8">Large Print</a></li></ul></section><script type="text/javascript">
+$(document).ready(function () {
+newSource = "https://www.barnesandnoble.com/web-services/leftnavcontent/_/N-8q8Z29?format=json";
+let refinementList, outputList = [], catVisuals = '';
+$.ajax(newSource, {
+success: function (data, status, xhr) {
+refinementList = data.leftContent[0].navigation[0].refinements;
+
+for (const element of refinementList) {
+outputList.push('<li><a href=/b' + element.navigationState.slice(0, -12) + '>' + element.label + '</a></li>');
+}
+outputList.unshift('<section class="links-container browse clearer"><h3>Categories</h3><ul>');
+outputList.push("</ul></section");
+$('.html-embed-container').append(catVisuals);
+$('.main-content .html-embed-container').append(outputList.join(''))
+}
+});
+});
+</script> </div></div></div>
+</div>
+<script>
+if(typeof performance.mark !== 'undefined')
+{
+performance.mark("Global_Footer_loading_starts");
+}
+</script>
+<div id="footer"></div>
+<!-- ATG-26331 remove google analytics-->
+<script>
+if(typeof performance.mark !== 'undefined' && typeof performance.measure !== 'undefined')
+{
+performance.mark("Global_Footer_loading_ends");
+performance.measure(
+"globalFooterDur",
+"Global_Footer_loading_starts",
+"Global_Footer_loading_ends"
+);
+}
+</script>
+<!-- ATG-26338 : Add modal for PDP, PLP -->
+<!-- ATG-26338 : Ends -->
+<script>var isresponsive= true;</script>
+<!-- All Javascripts in js-scripts-ra.jsp has to be minified. ALl JS has to be moved to release dir as per grunt minification -->
+<script src="//js.js-bn.com/static/redesign/release/js/bn.js?v9.1.18"></script><script src="//js.js-bn.com/static/redesign/release/js/modal.modals-browse.js?v9.1.18"></script><script>
+$.webshims.setOptions('basePath','//js.js-bn.com/static/redesign/srcs/js/vendor/js-webshim-1.15/minified/shims/');
+$.webshims.polyfill('es5 forms forms-ext');
+</script>
+<script src="//js.js-bn.com/static/redesign/srcs/js/sections/search/search.js?v9.1.18" type="text/javascript"></script>
+<script src="//js.js-bn.com/static/redesign/srcs/js/vendor/jquery.scrollpane.min.js?v9.1.18" type="text/javascript"></script>
+<script src="//js.js-bn.com/static/redesign/srcs/js/vendor/jquery.mousewheel.js?v9.1.18" type="text/javascript"></script>
+<script src="//js.js-bn.com/static/redesign/release/js/pdp.js?v9.1.18"></script><script src="//js.js-bn.com/static/release/js/toolkit-responsive.js?v9.1.18" type="text/javascript"></script>
+<script src="https://safetechpageencryption.chasepaymentech.com/pie/v1/64100000000013/getkey.js" type="text/javascript"></script>
+<script src="https://safetechpageencryption.chasepaymentech.com/pie/v1/encryption.js" type="text/javascript"></script>
+<script src="https://request.eprotect.vantivcnp.com/eProtect/eProtect-api3.js" type="text/javascript"></script>
+<script src="//js.js-bn.com/static/redesign/release/js/worldpay.js?v9.1.18"></script><input id="analyticsEnabledFlag" type="hidden" value="true"/>
+<script>
+if(!$.isEmptyObject(digitalData)){
+var digitalData1 = {"session":{"sessionID":"5CAB0F4C8F7823C0F2C68362161A8617","serverName":"prodny_store01"},"page":{"timestamp":"Tue Feb 08 04:31:30 EST 2022","category":{"primaryCategory":"books","subCategory":["browse"],"hierarchy":"/h/books"},"pageInfo":{"pageType":"generic content","pageName":"generic content:books","language":"en","geoRegion":"US","breadCrumbs":["home","h","books"],"ipAddress":"49.36.187.99"}},"cart":{"price":{"shipping":0,"priceWithTax":0,"transationalTotal":0,"basePrice":0,"currency":"USD"}},"user":[{"cohort":"Non-Members","profile":[{"profileInfo":{"profileID":"56106459654"}}]}]};
+$.extend(digitalData,digitalData1);
+}else{
+
+var digitalData = {"session":{"sessionID":"5CAB0F4C8F7823C0F2C68362161A8617","serverName":"prodny_store01"},"page":{"timestamp":"Tue Feb 08 04:31:30 EST 2022","category":{"primaryCategory":"books","subCategory":["browse"],"hierarchy":"/h/books"},"pageInfo":{"pageType":"generic content","pageName":"generic content:books","language":"en","geoRegion":"US","breadCrumbs":["home","h","books"],"ipAddress":"49.36.187.99"}},"cart":{"price":{"shipping":0,"priceWithTax":0,"transationalTotal":0,"basePrice":0,"currency":"USD"}},"user":[{"cohort":"Non-Members","profile":[{"profileInfo":{"profileID":"56106459654"}}]}]};
+
+}
+if (typeof s_setP !== 'undefined') {
+
+}
+$(document).ready(function(){
+if (typeof s_setP !== 'undefined') {
+
+BN.Analytics.Search.init();
+
+BN.Analytics.Generic.GoogleAds();
+
+}
+});
+</script>
+<script type="text/javascript">
+</script>
+<input name="bopisEnabled" type="hidden" value="true"/>
+<script type="text/javascript">
+var cname = "internalCampaign",
+cvalue = null;
+var curCookie = cname + "=" + cvalue +
+"; expires= Thu, 01 Jan 1970 00:00:01 GMT;" +
+"; path=" + "/"  +
+"; domain=" + SITE_DOMAIN;
+document.cookie = curCookie;
+</script>
+<script type="text/javascript">
+/*Check id google ad needs to be loaded after page load*/
+
+var asyncRelatedAdsEnabled = true;
+var endemicAd = true;
+$(document).on('googleRelatedAdsLoaded', function() {
+
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+if($("#div-gpt-ad-9453498-1").length > 0) {
+googletag.defineSlot('/9885823/BN/Search', [[160,600]], 'div-gpt-ad-9453498-1')
+.setTargeting('pos', ['Search_Left'])
+.addService(googletag.pubads());
+}
+if($("#div-gpt-ad-9453498-2").length > 0) {
+googletag.defineSlot('/9885823/BN/Search', [[1024,526]], 'div-gpt-ad-9453498-2')
+.setTargeting('pos', ['Search_Bottom'])
+.addService(googletag.pubads());
+}
+googletag.pubads().enableSingleRequest();
+googletag.pubads().setTargeting('login', 'n')
+.setTargeting('kw', '');
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().setForceSafeFrame(false);
+googletag.pubads().setCentering(true);
+googletag.pubads().setTargeting('environment', 'prod');
+googletag.enableServices();
+});
+if($("#div-gpt-ad-9453498-1").length > 0) {
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-9453498-1'); });
+}
+if($("#div-gpt-ad-9453498-2").length > 0) {
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-9453498-2'); });
+}
+
+})
+</script>
+<input id="gptAdsVal" name="gptAdsVal" type="hidden" value=""/>
+<input id="hiddenCardNumber" type="hidden"/>
+<input id="hiddenSecurityCode" type="hidden"/>
+<input id="isWPApiAlreadyCalled" type="hidden" value="false"/>
+<input id="paymentFormContainerId" type="hidden" value=""/>
+<input id="isWorldPayEnabled" type="hidden" value="true"/>
+<script type="text/javascript">
+_satellite.pageBottom();
+</script>
+<script type="text/javascript">
+/*CommerceHeaderFooter is the name of the library that we defined in webpack.config.js */
+CommerceHeaderFooter.showFooter('footer', {env:'prod', consumer_host:'https://www.barnesandnoble.com', styling:'responsive'});
+</script>
+<script src="/qXASyy/hxd1t/y3F9p/GA/wuXirpbhY9/R0l7YXhJDAQ/Ak/sVPhcMB0M" type="text/javascript"></script></section></main></body>
+</html>

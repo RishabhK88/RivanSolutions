@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="pathway_image" externalResourcesRequired="true" version="1.1" width="800" height="1200">
+    <defs>
+  <radialGradient id="coa" cx="50%" cy="50%" r="70%">
+    <stop offset="10%" stop-color="#FF8080"/>
+    <stop offset="90%" stop-color="#C40000"/>
+  </radialGradient>
+  <radialGradient id="pyrophosphate" gradientUnits="userSpaceOnUse" cx="31.071" cy="21.673" r="29.851">
+    <stop offset="0" stop-color="#80C8FF"/>
+    <stop offset="1" stop-color="#672BFF"/>
+  </radialGradient>
+  <radialGradient id="phosphate" gradientUnits="userSpaceOnUse" cx="21.811" cy="21.673" r="20.591">
+    <stop offset="0" stop-color="#80C8FF"/>
+    <stop offset="1" stop-color="#672BFF"/>
+  </radialGradient>
+  <radialGradient id="atp" cx="50%" cy="50%" r="70%">
+    <stop offset="10%" stop-color="#FFF3AA"/>
+    <stop offset="90%" stop-color="#443A00"/>
+  </radialGradient>
+  <radialGradient id="HCO3_1" gradientUnits="userSpaceOnUse" cx="28.843" cy="26.412" r="15.322">
+    <stop offset="0" stop-color="#EAEAEA"/>
+    <stop offset="1" stop-color="#0088EE"/>
+  </radialGradient>
+  <radialGradient id="HCO3_2" gradientUnits="userSpaceOnUse" cx="55.617" cy="37.127" r="15.322">
+    <stop offset="0" stop-color="#EAEAEA"/>
+    <stop offset="1" stop-color="#0088EE"/>
+  </radialGradient>
+  <radialGradient id="HCO3_3" gradientUnits="userSpaceOnUse" cx="33.639" cy="54.28" r="11.229">
+    <stop offset="0" stop-color="#FF8080"/>
+    <stop offset="1" stop-color="#C40000"/>
+  </radialGradient>
+  <radialGradient id="HCO3_4" gradientUnits="userSpaceOnUse" cx="39.203" cy="39.299" r="15.373">
+    <stop offset="0" stop-color="#D5D5D5"/>
+    <stop offset="1" stop-color="#2B2B2B"/>
+  </radialGradient>
+  <radialGradient id="HCO3_5" gradientUnits="userSpaceOnUse" cx="47.725" cy="25.389" r="15.322">
+    <stop offset="0" stop-color="#EAEAEA"/>
+    <stop offset="1" stop-color="#0088EE"/>
+  </radialGradient>
+  <!-- compounds color -->
+  <linearGradient id="svg_1" x1="1.0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1199FF"/>
+    <stop offset="1" stop-color="#99bbFF"/>
+  </linearGradient>
+  <radialGradient id="protein_color_1" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#44EE22" offset="0.5"/>
+    <stop stop-color="#117700" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_color_2" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#FE9A2E" offset="0.5"/>
+    <stop stop-color="#CD7B23" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_color_3" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#FE642E" offset="0.5"/>
+    <stop stop-color="#BB4A21" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_color_4" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#298A08" offset="0.5"/>
+    <stop stop-color="#195705" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_color_5" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#AC58FA" offset="0.5"/>
+    <stop stop-color="#8A45CA" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_color_6" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#AD3333" offset="0.5"/>
+    <stop stop-color="#990000" offset="1"/>
+  </radialGradient>
+  <radialGradient id="na_color" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#FFFF00" offset="0.5"/>
+    <stop stop-color="#C2C201" offset="1"/>
+  </radialGradient>
+  <radialGradient id="sp_color" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#01DFD7" offset="0.5"/>
+    <stop stop-color="#00ABA5" offset="1"/>
+  </radialGradient>
+  <radialGradient id="protein_drug_color" r="0.65306" cy="0.5" cx="0.5">
+    <stop stop-color="#FA58F4" offset="0.5"/>
+    <stop stop-color="#C946C5" offset="1"/>
+  </radialGradient>
+  <linearGradient id="compound_drug_color" x1="1.0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FA58F4"/>
+    <stop offset="1" stop-color="#C946C5"/>
+  </linearGradient>
+   <!-- background -->
+  <linearGradient y2="0.99609" x2="0.75391" y1="0.00781" x1="0.26172" id="svg_3">
+    <stop offset="0" stop-color="#110066"/>
+    <stop offset="1" stop-color="#000099"/>
+  </linearGradient>
+  <g id="lipid">
+    <g><circle fill="#ff0000" stroke="#000000" cx="10" cy="10" r="5"/>
+        <line y2="33" x2="8" y1="15" x1="8" stroke="#000000" fill="none"/>
+        <line y2="33" x2="12" y1="15" x1="12" stroke="#000000" fill="none"/>
+    </g>
+    <g><circle fill="#ff0000" stroke="#000000" cx="10" cy="57" r="5"/>
+        <line y2="53" x2="8" y1="35" x1="8" stroke="#000000" fill="none"/>
+        <line y2="53" x2="12" y1="35" x1="12" stroke="#000000" fill="none"/>
+    </g>
+  </g>
+  <g id="moldb_cache">
+  </g>
+  <pattern id="compoundHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+    <path d="M-1,1 l2,-2              M0,4 l4,-4              M3,5 l2,-2" stroke="#1199FF" stroke-width="1.5"/>
+  </pattern>
+  <pattern id="nucleicHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+    <path d="M-1,1 l2,-2              M0,4 l4,-4              M3,5 l2,-2" stroke="#FFFF00" stroke-width="1.5"/>
+  </pattern>
+  <pattern id="protein_complexHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+    <path d="M-1,1 l2,-2              M0,4 l4,-4              M3,5 l2,-2" stroke="#44EE22" stroke-width="1.5"/>
+  </pattern>
+  <pattern id="receptorHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+    <path d="M-1,1 l2,-2              M0,4 l4,-4              M3,5 l2,-2" stroke="#FF9900" stroke-width="1.5"/>
+  </pattern>
+  <linearGradient id="mitochondriaInner" gradientUnits="userSpaceOnUse" x1="-66.5934" y1="642.6035" x2="833.4064" y2="642.6035" gradientTransform="matrix(1.25 0 0 1.25 10.3858 -180.3908)">
+    <stop offset="0" style="stop-color:#FEAEAC"/>
+    <stop offset="1" style="stop-color:#FFCCCA"/>
+  </linearGradient>
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#BBB" stroke-width="1"/>
+  </pattern>
+  <filter id="greyscale">
+    <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0     0.3333 0.3333 0.3333 0 0     0.3333 0.3333 0.3333 0 0     0 0 0 1 0"/>
+  </filter>
+</defs>
+
+      <g id="pathway" transform="translate(0,0) scale(1,1)">
+      	<rect id="background" fill="#000099" x="0" y="0" width="800" height="1200"/>
+      <g><g>
+    
+      
+    
+    <g id="location" transform="translate(20,20) rotate(0) scale(1.0,1.0)">
+      <rect class="selection-box" x="-10" y="-10" width="600" height="270" fill="none" stroke="none" stroke-width="1" stroke-dasharray="5,5" vector-effect="non-scaling-stroke"/>
+      <image height="250" width="580" xlink:href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0g
+R2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBv
+cnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4N
+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9F
+TiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2
+ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHht
+bG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9
+Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4
+IiB3aWR0aD0iNTgwcHgiIGhlaWdodD0iMjUwcHgiIHZpZXdCb3g9IjAgMCA1
+ODAgMjUwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1ODAgMjUwIiB4
+bWw6c3BhY2U9InByZXNlcnZlIj4NCiAgPGRlZnM+DQogICAgPHJlY3QgaWQ9
+IlNWR0lEXzFfIiB4PSIxNS4zMDkiIHk9Ii01NS41MjUiIHdpZHRoPSI1NTEu
+MiIgaGVpZ2h0PSIzMDYuNCIvPg0KICAgIDxjbGlwUGF0aCBpZD0iU1ZHSURf
+Ml8iPg0KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMV8iICBvdmVy
+Zmxvdz0idmlzaWJsZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQ
+YXRoIGlkPSJTVkdJRF80XyI+DQogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNT
+VkdJRF8zXyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9jbGlwUGF0
+aD4NCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzVfIiBncmFkaWVu
+dFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjYzLjk4OTciIHkxPSItMTYu
+MTIxMyIgeDI9IjQ5My4xMjAzIiB5Mj0iMjMxLjYzNzQiPg0KICAgICAgPHN0
+b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzFDNzVCQyIvPg0K
+ICAgICAgPHN0b3AgIG9mZnNldD0iMC4xNTM5IiBzdHlsZT0ic3RvcC1jb2xv
+cjojNzA2Qzk1Ii8+DQogICAgICA8c3RvcCAgb2Zmc2V0PSIwLjMyMjciIHN0
+eWxlPSJzdG9wLWNvbG9yOiM5QTYwNzMiLz4NCiAgICAgIDxzdG9wICBvZmZz
+ZXQ9IjAuNDg2MSIgc3R5bGU9InN0b3AtY29sb3I6I0I5NTE1NyIvPg0KICAg
+ICAgPHN0b3AgIG9mZnNldD0iMC42Mzk1IiBzdHlsZT0ic3RvcC1jb2xvcjoj
+RDA0MTQwIi8+DQogICAgICA8c3RvcCAgb2Zmc2V0PSIwLjc4MDciIHN0eWxl
+PSJzdG9wLWNvbG9yOiNERjMwMzAiLz4NCiAgICAgIDxzdG9wICBvZmZzZXQ9
+IjAuOTA1MiIgc3R5bGU9InN0b3AtY29sb3I6I0U4MjMyNyIvPg0KICAgICAg
+PHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6I0VEMUMyNCIv
+Pg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPHJlY3QgaWQ9IlNWR0lE
+XzNfIiB4PSIxNS4zMDkiIHk9Ii01NC41MjUiIHdpZHRoPSI1NTEuMiIgaGVp
+Z2h0PSIzMDYuNCIvPg0KICAgIDxlbGxpcHNlIGlkPSJTVkdJRF82XyIgdHJh
+bnNmb3JtPSJtYXRyaXgoMC45ODgzIC0wLjE1MjIgMC4xNTIyIDAuOTg4MyAt
+MjkuMDU3MSA1MS40MzM1KSIgY3g9IjMyMS40MjgiIGN5PSIyMTUuNTE0IiBy
+eD0iMjAuMTA5IiByeT0iMTkuMTI0Ii8+DQogICAgPHJlY3QgaWQ9IlNWR0lE
+XzhfIiB4PSIxNS4zMDkiIHk9Ii01NS41MjUiIHdpZHRoPSI1NTEuMiIgaGVp
+Z2h0PSIzMDYuNCIvPg0KICAgIDxyZWN0IGlkPSJTVkdJRF8xMF8iIHg9IjE1
+LjMwOSIgeT0iLTU1LjUyNSIgd2lkdGg9IjU1MS4yIiBoZWlnaHQ9IjMwNi40
+Ii8+DQogICAgPHJlY3QgaWQ9IlNWR0lEXzEyXyIgeD0iMTUuMzA5IiB5PSIt
+NTUuNTI1IiB3aWR0aD0iNTUxLjIiIGhlaWdodD0iMzA2LjQiLz4NCiAgICA8
+cmVjdCBpZD0iU1ZHSURfMTRfIiB4PSIxNS4zMDkiIHk9Ii01NS41MjUiIHdp
+ZHRoPSI1NTEuMiIgaGVpZ2h0PSIzMDYuNCIvPg0KICAgIDxyZWN0IGlkPSJT
+VkdJRF8xNl8iIHg9IjE1LjMwOSIgeT0iLTU1LjUyNSIgd2lkdGg9IjU1MS4y
+IiBoZWlnaHQ9IjMwNi40Ii8+DQogICAgPHJlY3QgaWQ9IlNWR0lEXzE4XyIg
+eD0iMTUuMzA5IiB5PSItNTUuNTI1IiB3aWR0aD0iNTUxLjIiIGhlaWdodD0i
+MzA2LjQiLz4NCiAgICA8cmVjdCBpZD0iU1ZHSURfMjBfIiB4PSIxNS4zMDki
+IHk9Ii01NS41MjUiIHdpZHRoPSI1NTEuMiIgaGVpZ2h0PSIzMDYuNCIvPg0K
+ICAgIDxyZWN0IGlkPSJTVkdJRF8yMl8iIHg9IjE1LjMwOSIgeT0iLTU1LjUy
+NSIgd2lkdGg9IjU1MS4yIiBoZWlnaHQ9IjMwNi40Ii8+DQogICAgPHJlY3Qg
+aWQ9IlNWR0lEXzI0XyIgeD0iMTUuMzA5IiB5PSItNTUuNTI1IiB3aWR0aD0i
+NTUxLjIiIGhlaWdodD0iMzA2LjQiLz4NCiAgICA8cmVjdCBpZD0iU1ZHSURf
+MjZfIiB4PSIxNS4zMDkiIHk9Ii01NS41MjUiIHdpZHRoPSI1NTEuMiIgaGVp
+Z2h0PSIzMDYuNCIvPg0KICAgIDxyZWN0IGlkPSJTVkdJRF8yOF8iIHg9IjE1
+LjMwOSIgeT0iLTU1LjUyNSIgd2lkdGg9IjU1MS4yIiBoZWlnaHQ9IjMwNi40
+Ii8+DQogICAgPHJlY3QgaWQ9IlNWR0lEXzMwXyIgeD0iMTUuMzA5IiB5PSIt
+NTUuNTI1IiB3aWR0aD0iNTUxLjIiIGhlaWdodD0iMzA2LjQiLz4NCiAgICA8
+cmVjdCBpZD0iU1ZHSURfMzJfIiB4PSIxNS4zMDkiIHk9Ii01NS41MjUiIHdp
+ZHRoPSI1NTEuMiIgaGVpZ2h0PSIzMDYuNCIvPg0KICAgIDxyZWN0IGlkPSJT
+VkdJRF8zNF8iIHg9IjE1LjMwOSIgeT0iLTU1LjUyNSIgd2lkdGg9IjU1MS4y
+IiBoZWlnaHQ9IjMwNi40Ii8+DQogICAgPHJlY3QgaWQ9IlNWR0lEXzM2XyIg
+eD0iMTUuMzA5IiB5PSItNTUuNTI1IiB3aWR0aD0iNTUxLjIiIGhlaWdodD0i
+MzA2LjQiLz4NCiAgICA8cmVjdCBpZD0iU1ZHSURfMzhfIiB4PSIzMzMuOTci
+IHk9IjIyOS45MiIgdHJhbnNmb3JtPSJtYXRyaXgoLTAuOTk5OCAwLjAxOTgg
+LTAuMDE5OCAtMC45OTk4IDY3Ny42MDIyIDQ1Ny4zNjk2KSIgd2lkdGg9IjUu
+MTQ0IiBoZWlnaHQ9IjQuMjIyIi8+DQogICAgPHJlY3QgaWQ9IlNWR0lEXzQw
+XyIgeD0iMTUuMzA5IiB5PSItNTUuNTI1IiB3aWR0aD0iNTUxLjIiIGhlaWdo
+dD0iMzA2LjQiLz4NCiAgICA8cmVjdCBpZD0iU1ZHSURfNDJfIiB4PSIxNS4z
+MDkiIHk9Ii01NS41MjUiIHdpZHRoPSI1NTEuMiIgaGVpZ2h0PSIzMDYuNCIv
+Pg0KICAgIDxyZWN0IGlkPSJTVkdJRF80NF8iIHg9IjE1LjMwOSIgeT0iLTU1
+LjUyNSIgd2lkdGg9IjU1MS4yIiBoZWlnaHQ9IjMwNi40Ii8+DQogICAgPGNs
+aXBQYXRoIGlkPSJTVkdJRF83XyI+DQogICAgICA8dXNlIHhsaW5rOmhyZWY9
+IiNTVkdJRF82XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9jbGlw
+UGF0aD4NCiAgICA8ZyBjbGlwLXBhdGg9InVybCgjU1ZHSURfN18pIj4NCiAg
+ICAgIDxjbGlwUGF0aCBpZD0iU1ZHSURfOV8iPg0KICAgICAgICA8dXNlIHhs
+aW5rOmhyZWY9IiNTVkdJRF84XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQog
+ICAgICA8L2NsaXBQYXRoPg0KICAgIDwvZz4NCiAgICA8Y2xpcFBhdGggaWQ9
+IlNWR0lEXzExXyI+DQogICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8x
+MF8iICBvdmVyZmxvdz0idmlzaWJsZSIvPg0KICAgIDwvY2xpcFBhdGg+DQog
+ICAgICA8Y2xpcFBhdGggaWQ9IlNWR0lEXzEzXyI+DQogICAgICA8dXNlIHhs
+aW5rOmhyZWY9IiNTVkdJRF8xMl8iICBvdmVyZmxvdz0idmlzaWJsZSIvPg0K
+ICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJTVkdJRF8xNV8i
+Pg0KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMTRfIiAgb3ZlcmZs
+b3c9InZpc2libGUiLz4NCiAgICA8L2NsaXBQYXRoPg0KICAgIDxjbGlwUGF0
+aCBpZD0iU1ZHSURfMTdfIj4NCiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NW
+R0lEXzE2XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9jbGlwUGF0
+aD4NCiAgICA8Y2xpcFBhdGggaWQ9IlNWR0lEXzE5XyI+DQogICAgICA8dXNl
+IHhsaW5rOmhyZWY9IiNTVkdJRF8xOF8iICBvdmVyZmxvdz0idmlzaWJsZSIv
+Pg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJTVkdJRF8y
+MV8iPg0KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMjBfIiAgb3Zl
+cmZsb3c9InZpc2libGUiLz4NCiAgICA8L2NsaXBQYXRoPg0KICAgIDxjbGlw
+UGF0aCBpZD0iU1ZHSURfMjNfIj4NCiAgICAgIDx1c2UgeGxpbms6aHJlZj0i
+I1NWR0lEXzIyXyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9jbGlw
+UGF0aD4NCiAgICA8Y2xpcFBhdGggaWQ9IlNWR0lEXzI1XyI+DQogICAgICA8
+dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8yNF8iICBvdmVyZmxvdz0idmlzaWJs
+ZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJTVkdJ
+RF8yN18iPg0KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMjZfIiAg
+b3ZlcmZsb3c9InZpc2libGUiLz4NCiAgICA8L2NsaXBQYXRoPg0KICAgIDxj
+bGlwUGF0aCBpZD0iU1ZHSURfMjlfIj4NCiAgICAgIDx1c2UgeGxpbms6aHJl
+Zj0iI1NWR0lEXzI4XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9j
+bGlwUGF0aD4NCiAgICA8Y2xpcFBhdGggaWQ9IlNWR0lEXzMxXyI+DQogICAg
+ICA8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8zMF8iICBvdmVyZmxvdz0idmlz
+aWJsZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGNsaXBQYXRoIGlkPSJT
+VkdJRF8zM18iPg0KICAgICAgPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMzJf
+IiAgb3ZlcmZsb3c9InZpc2libGUiLz4NCiAgICA8L2NsaXBQYXRoPg0KICAg
+IDxjbGlwUGF0aCBpZD0iU1ZHSURfMzVfIj4NCiAgICAgIDx1c2UgeGxpbms6
+aHJlZj0iI1NWR0lEXzM0XyIgIG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAg
+PC9jbGlwUGF0aD4NCiAgICA8Y2xpcFBhdGggaWQ9IlNWR0lEXzM3XyI+DQog
+ICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8zNl8iICBvdmVyZmxvdz0i
+dmlzaWJsZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogICAgPGcgY2xpcC1wYXRo
+PSJ1cmwoI1NWR0lEXzM3XykiPg0KICAgICAgPGNsaXBQYXRoIGlkPSJTVkdJ
+RF8zOV8iPg0KICAgICAgICA8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8zOF8i
+ICBvdmVyZmxvdz0idmlzaWJsZSIvPg0KICAgICAgPC9jbGlwUGF0aD4NCiAg
+ICA8L2c+DQogICAgPGNsaXBQYXRoIGlkPSJTVkdJRF80MV8iPg0KICAgICAg
+PHVzZSB4bGluazpocmVmPSIjU1ZHSURfNDBfIiAgb3ZlcmZsb3c9InZpc2li
+bGUiLz4NCiAgICA8L2NsaXBQYXRoPg0KICAgIDxjbGlwUGF0aCBpZD0iU1ZH
+SURfNDNfIj4NCiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzQyXyIg
+IG92ZXJmbG93PSJ2aXNpYmxlIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgICA8
+Y2xpcFBhdGggaWQ9IlNWR0lEXzQ1XyI+DQogICAgICA8dXNlIHhsaW5rOmhy
+ZWY9IiNTVkdJRF80NF8iICBvdmVyZmxvdz0idmlzaWJsZSIvPg0KICAgIDwv
+Y2xpcFBhdGg+DQogIDwvZGVmcz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NW
+R0lEXzRfKSI+DQogIAk8cGF0aCAgZmlsbD0idXJsKCNTVkdJRF81XykiIHN0
+cm9rZT0iI0ZFRDVBOSIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5l
+am9pbj0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iDQogIAkJ
+TTIzMi40NjksMTYuNzIyYzQzLjQ0MS0wLjA0Nyw3Ni44OCwxMy40ODcsMTE2
+LjU1OCwyMy44M2MzOS45NDksMTAuMzY5LDgzLjQ3NSwzNS4yMDYsMTE5LjI4
+Myw0My43MjYNCiAgCQljMzUuNzU0LDguNTE1LDc4Ljk5Nyw0LjAxOCw5NS4w
+OTUsNy43MzZjMC41NTYsNC45OTMsMS4xMTEsMTAuMDA1LDEuNjY4LDE0Ljk5
+OGMtMTUuNDc1LDIuODUyLTY1LjQ4MS0wLjE4Mi05NS4zMzYsMy44MTINCiAg
+CQljLTI5LjgxOSwzLjYzLTYyLjI3NywxNS4zMzEtODMuNzc2LDE5LjQxOGMt
+MjEuNDk3LDQuMDY2LTMzLjAxMSw0LjQwMy00NS4xMiw0LjY4MmMtMTIuNDcs
+MC42MTItMjAuNzctMy40NTUtMjcuNjgtMi42NzQNCiAgCQljLTYuOTEsMC43
+ODItMTQuMTY1LDUuMTQyLTEzLjc1Nyw3LjcxMmMwLjM4NywyLjIyMSwxMi4w
+NTQsMy42OTUsMTUuNTI4LDYuMjE0YzMuNDc2LDIuNDk5LDYuOCwzLjE4Nyw1
+LjQzLDcuNzQ5DQogIAkJYy0xLjM3Miw0LjU4Mi0xNS45ODIsMTEuNDk3LTEz
+LjYyMSwxOS4zMTdjMi4zMDcsNy44MTUsMjEuNTExLDIxLjI2MSwyNy4wNDQs
+MjcuOTM5YzUuNTg1LDYuNzAzLDcuNjA5LDExLjIyNSw2Ljk3OCwxMS41MzEN
+CiAgCQljLTAuNjMxLDAuMzA2LTYuMTQ4LTcuMTA0LTEwLjkzOS05LjAxNmMt
+NC43MzYtMS45MDYtMTMuOTU5LTYuMDQyLTE4LjM0OS0yLjQ4N2MtNC4zODks
+My41NTYtMy4wOTQsMjguNjQtNy4zNTMsMjQuNjE2DQogIAkJYy00LjI1Ny00
+LjA0NC0xOC4yNDktMzUuNzgzLTE4LjMxNy00OC4wOTZjLTAuMDY4LTEyLjMx
+MywxOC4zNDctMTkuNTc1LDE4LjU0Mi0yNC45ODRjMC4xOTQtNS40MS0xMS4x
+ODEtNi41MDktMTYuNzA2LTcuMDQyDQogIAkJYy01LjUyNS0wLjUzNC03Ljk2
+My0wLjc2OS0xNy4wNiwzLjQxM2MtOS4wNjQsMy44MzktMzIuMjEsMTUuMzU4
+LTM3LjA0MiwyMC42NjdjLTQuOTIzLDUuNjg4LDYuNjM4LDguMjUzLDguNDA1
+LDEyLjAzNg0KICAJCWMxLjgyMSwzLjc4OC0wLjA3Niw3LjU4NCwyLjczNCwx
+MC43NTRjMi43MjEsMy41MjgsMTIuNDA4LDYuMjYsMTQuMDQsOC42MDFjLTEu
+MjEzLDEuODAxLTIuNDI4LDMuNjIzLTMuNjQsNS40MjQNCiAgCQljLTQuMjQ2
+LTAuNzU3LTEzLjA1MS05LjIyLTIxLjMzOS0xMC4wMmMtOC4wMTctMC43NzQt
+MjIuNDU1LDQuMzYyLTI3LjQ1Miw0LjU5M2wtMi4zODItNC4yMWM0LjI1MS0y
+LjEyLDI3LjE2LTQuOTY4LDI4LjQ5Ny05LjE4Ng0KICAJCWMxLjY5Ny00LjU1
+LTYuNzU2LTEwLjQyOC0xOS43NDQtMTcuNDc4Yy0xMy4yMjUtNy40Mi00MS4y
+ODUtMTkuMTcxLTU3Ljk3Mi0yNS44NDRjLTE2LjczOS02LjY5OC0yOS40MDgt
+MTAuODItNDMuMDE0LTE0LjI5OA0KICAJCWMtMTMuNjA2LTMuNDc3LTI0LjAw
+NC04LjQ2MS0zOS42NjUtNy4wNzZjLTE1LjY1OSwxLjM2NS00NC4xMDksMTMu
+NDU0LTUzLjUyNiwxNC43MjhjLTAuNzg3LTIuNjA3LTEuNTcyLTUuMjMzLTIu
+MzU5LTcuODQNCiAgCQljNS45MDYtMy40MDksMjguOTE5LTcuMzI5LDM3Ljc0
+Ni0xMS41MzhjOC44MDctNC41NzgsNi44NTYtOS44NDgsMTQuNTU0LTE1Ljk2
+MWM3Ljc1NC02LjEyOSwyNC41NjYtMTMuMTk4LDMxLjg0Mi0yMS4xNjkNCiAg
+CQljNy4yNzgtNy45OTEsNy45Ny0xNS4yODksMTEuMTQ2LTIzLjYyM2MzLjE2
+OC04LjMxNi02Mi44NzktMTguOTMyLTgwLjUtMTYuNWwxMC43ODYtMTMuNTc4
+DQogIAkJYzkuMjUxLDQuOTc1LDUxLjQ3NSw3Ljg3Nyw3NC43MTQsMTEuNTc4
+YzAsMCwxNS4yNi02LjIyMSwzNi4zOC0xMS44NnMzOS42Mi03LjY0LDM5LjYy
+LTcuNjQNCiAgCQlDMjA5Ljc3NywxNy4yNDMsMjE2LjU0NSwxOC4xNjcsMjMy
+LjQ2OSwxNi43MjIiLz4NCiAgPC9nPg0KICA8ZyBjbGlwLXBhdGg9InVybCgj
+U1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xp
+cC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVENUE5IiBkPSJNMTc5LjcyMSwz
+My43MjYNCiAgCQljNS4zNTYtMi45ODgsMzUuMjE4LTUuODkzLDQxLjkzNy0z
+LjE3M2M2LjcxOCwyLjcyLTAuMzkyLDE1LjMxLTEuOTY3LDE5LjA4OGMtMS41
+NzUsMy43NzgtMy43MTcsNC4xNTUtOC40MDcsMy42NDkNCiAgCQljLTQuNjkt
+MC41MDYtMTQuNDkyLTIuOTkzLTE5LjcwMS02LjI1N0MxODYuMzczLDQzLjc2
+OCwxODIuMTA2LDM2LjU1OCwxNzkuNzIxLDMzLjcyNnoiLz4NCiAgPC9nPg0K
+ICA8ZyBjbGlwLXBhdGg9InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZp
+bGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIj
+RkVENUE5IiBkPSJNMTk2LjMzOCw3OS4xMTgNCiAgCQljMTEuMDIxLDEuNDI3
+LDM5Ljk1Myw2Ljc1Niw0My4yMjIsMTEuNDE4YzMuMjY5LDQuNjYyLTE0Ljg2
+NCwxMi42ODktMjMuMjMsMTUuODY1Yy04LjM2NiwzLjE3Ni0xOS42NjQsNC42
+Mi0yNi4zNTEsMy4yNQ0KICAJCWMtNi42ODctMS4zNy0xMS43MjktNi45Mjgt
+MTQuMzg0LTExLjUzYy0yLjY1NS00LjYwMy01LjU3OC0xMi44NTMtMS44ODgt
+MTUuNzU2QzE3Ny4xMjQsNzkuMDczLDE5MS42MjcsNzkuNzUsMTk2LjMzOCw3
+OS4xMTh6Ii8+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lE
+XzRfKSI+DQogIAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVs
+ZT0iZXZlbm9kZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTE0NC4yNDUsNDAuMzE5
+DQogIAkJYzQuNjM3LDMuOTU0LDEzLjY1MiwyNC43OTksOS4yMDgsMzEuNTkz
+Yy00LjQ0NCw2Ljc5NC0yOS42MjgsOS43NzYtMzUuODcxLDkuMTcyYy02LjI0
+My0wLjYwNC0yLjE0LTcuODAzLTEuMDA0LTEzLjI3MQ0KICAJCWMxLjEzNi01
+LjQ2OCwzLjg2MS0xNC41LDguNDY3LTE5LjE1NEMxMjkuNjUxLDQ0LjAwNywx
+MzkuNjA4LDM2LjM2NSwxNDQuMjQ1LDQwLjMxOXoiLz4NCiAgPC9nPg0KICA8
+ZyBjbGlwLXBhdGg9InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwt
+cnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVE
+NUE5IiBkPSJNMTY3LjIyOSwzNi41NzgNCiAgCQljNC4wNDYsMC4zMzcsOC40
+NzksNS43ODcsMTEuNzQ4LDguMTExYzMuMjY5LDIuMzI0LDQuMzA0LDMuNzQ2
+LDcuMjE3LDUuNDU0YzIuOTEzLDEuNzA4LDcuNjg3LDMuNDksMTAuOTA3LDUu
+MTc0DQogIAkJYzMuMjIsMS42ODUsOC44MDQsMS45MDUsOC4zODIsNC41MDhz
+LTQuMjQzLDkuMzIxLTEwLjI2NSwxMS40OTFjLTYuMDIxLDIuMTctMTkuOTA4
+LDIuNTc4LTI1LjI4MSwxLjA1Ng0KICAJCWMtNS4zNzMtMS41MjItNS4zMjMt
+NC45NTQtNy44NDctOS42OTJzLTguODgxLTE1LjE4NC03Ljk3My0xOS41MzlD
+MTU1LjAyNSwzOC43ODcsMTYyLjg5MSwzNi40NzgsMTY3LjIyOSwzNi41Nzh6
+Ii8+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzRfKSI+
+DQogIAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZl
+bm9kZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTEzMy40OCw4NS4wNDgNCiAgCQlj
+Ni4zNzctMS43NTQsMjAuOTk3LTUuMTkzLDI1LjctNC40ODljNC43MDMsMC43
+MDQsNC40ODUsNi4wMiwyLjU1MSw5LjEzNWMtMS45MzQsMy4xMTQtOC40NzYs
+Ni43ODktMTMuNTQsOS41MDQNCiAgCQljLTUuMDY0LDIuNzE1LTEyLjQ4Myw3
+LjA5Mi0xNi44NzgsNi4zNjVjLTQuMzk1LTAuNzI3LTEwLjQzOC02Ljg0Mi0x
+MC4wNzYtMTAuMjYxQzEyMS41OTcsOTEuODgzLDEzMC44NDksODcuMTU1LDEz
+My40OCw4NS4wNDh6Ig0KICAJCS8+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRo
+PSJ1cmwoI1NWR0lEXzRfKSI+DQogIAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5v
+ZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTI5
+Ny40MTMsMzkuNzMyDQogIAkJYzguNTMzLTEuOTE2LDI4LjU2OCw0LjgyMywz
+MS41MTYsNi45MjljMi45NDksMi4xMDUtOC43MjksMy40MTItMTMuMTc3LDYu
+MDc3Yy00LjQ0NywyLjY2NS05LjM5OSw2Ljg1LTEzLjUzOCw5LjQ5MQ0KICAJ
+CWMtNC4xMzksMi42NDItNy45MDYsNi4xMDItMTEuMzI4LDUuOTM3Yy0zLjQy
+Mi0wLjE2NC0xMC4zNi0xLjc1Ni05LjE3LTYuNTAzQzI4Mi45MDgsNTYuOTE2
+LDI5NC4wMzQsNDQuMjIxLDI5Ny40MTMsMzkuNzMyeiIvPg0KICA8L2c+DQog
+IDxnIGNsaXAtcGF0aD0idXJsKCNTVkdJRF80XykiPg0KICAJPHBhdGggZmls
+bC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNG
+RUQ1QTkiIGQ9Ik0yMDcuODc0LDYxLjk4OA0KICAJCWM0LjI3Ni0yLjQ3Nywx
+NS40MjQtNS4zNzQsMjIuMTIzLTQuMDA0YzYuNjk5LDEuMzcsMTYuOTQ4LDcu
+Nzc4LDE4LjcyMiwxMS45MjNjMS43NzMsNC4xNDUtNC40OSwxMS4xMjYtNy40
+NjcsMTMuMDA1DQogIAkJYy0yLjk3NiwxLjg4LTUuMTYxLTEuMjIxLTkuNDMz
+LTEuOTk1Yy00LjI3My0wLjc3NC0xMi41MS0yLjI5Mi0xNy4wMjEtMy44MTFj
+LTQuMjM4LTEuMTMyLTkuMTYtMS42MDctMTAuMTQ5LTQuMjMxDQogIAkJQzIw
+My42Niw3MC4yNTEsMjA3LjM1OSw2NC4xMDYsMjA3Ljg3NCw2MS45ODh6Ii8+
+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzRfKSI+DQog
+IAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9k
+ZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTIzNC4yNzEsMzIuNTc0DQogIAkJYzMu
+Mzg4LTIuOTMyLDEyLjMxLTIuMDcxLDIwLjY4NS0xLjk4NmM4LjMwNiwwLjgw
+MiwyNy4zODQtMC42MTQsMzAuNjI2LDQuNDA3cy02LjM4NywyMS4xMTQtMTEu
+NzU5LDI1LjMwMw0KICAJCWMtNS4zNzMsNC4xODktMTMuOTE3LDIuNjQtMjAu
+NTgyLDAuOTA5Yy02LjY2NC0xLjczLTE2LjAyMy03LjcwNS0xOS4yOTktMTIu
+MzY3QzIzMC42NjYsNDQuMTc4LDIzNC4yNjcsMzUuODM0LDIzNC4yNzEsMzIu
+NTc0eiIvPg0KICA8L2c+DQogIDxnIGNsaXAtcGF0aD0idXJsKCNTVkdJRF80
+XykiPg0KICAJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9
+ImV2ZW5vZGQiIGZpbGw9IiNGRUQ1QTkiIGQ9Ik0zMzQuNjk5LDU1LjI0OA0K
+ICAJCWM2Ljk4Ny0yLjAyMyw4LjQ1OCw1LjEyNCw5LjI4NSw3LjgzNmMwLjgy
+NiwyLjcxMi0xLjM1NCw2LjcyLTMuNjc5LDguODE3Yy0yLjMyNSwyLjA5Ny02
+LjM1MywyLjE4OC0xMC44ODYsMy44MTINCiAgCQljLTQuNTMzLDEuNjI0LTEy
+LjU3OCw2LjA3NS0xNi45MzEsNS45NzdjLTQuMzUzLTAuMDk4LTEzLjQ4MS0x
+Ljc1NS05Ljc3My02LjA5MUMzMDYuNDIxLDcxLjI2MywzMjcuNzEyLDU3LjI3
+MSwzMzQuNjk5LDU1LjI0OHoiLz4NCiAgPC9nPg0KICA8ZyBjbGlwLXBhdGg9
+InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9k
+ZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVENUE5IiBkPSJNMjYz
+LjMzLDY2Ljg0Mg0KICAJCWM1LjY0NCwwLjg1LDI0Ljg0MSw4Ljc2MSwzMC42
+NzcsMTIuMTVjNS44MzYsMy4zODksOC4zOTgsNC40NzIsNC4zMzksOC4xODRj
+LTQuMDU5LDMuNzEyLTIwLjkzOSwxNC4xNDEtMjkuMjc2LDE0LjU1OQ0KICAJ
+CWMtOC4zMzgsMC40MTgtMTguODU3LTcuNTEyLTIwLjEzNC0xMi4wOTdjLTEu
+Mjc3LTQuNTg1LDkuMzU0LTExLjU2MiwxMS44NTYtMTUuMzY5QzI2My4yOTQs
+NzAuNDYzLDI1Ny42ODYsNjUuOTkyLDI2My4zMyw2Ni44NDJ6Ig0KICAJCS8+
+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzRfKSI+DQog
+IAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9k
+ZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTMyNi4xNTIsODcuOTU1DQogIAkJYzQu
+NDg5LTIuMDQyLDIzLjQxNC01LjYwMiwzNC40MTEtMy40NTVjMTAuOTk4LDIu
+MTQ3LDI0LjcyNiwxMS43NDksMzAuOTkxLDE2LjgwOGM2LjI2NSw1LjA1OSwx
+MC45MSw5LjE3Niw2LjU2NSwxMy4xMjMNCiAgCQljLTQuMzQ1LDMuOTQ3LTI1
+LjEyLDExLjY5LTMyLjYzNiwxMC41NTZjLTcuNTE2LTEuMTM0LTguMzk2LTEy
+Ljc3Mi0xMy4xMDYtMTcuNzM1Yy00LjcxLTQuOTY0LTEwLjIzMS04LjM3Ny0x
+NC41MDQtMTEuNjcxDQogIAkJQzMzMy42LDkyLjI4NiwzMjguNzQzLDg5LjQ2
+MSwzMjYuMTUyLDg3Ljk1NXoiLz4NCiAgPC9nPg0KICA8ZyBjbGlwLXBhdGg9
+InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9k
+ZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVENUE5IiBkPSJNMjM5
+LjkxMiw5OS4wODENCiAgCQljNi42NTMtMS41MjIsMTcuMTUsNS4yNjQsMTku
+MDIyLDguMzMxYzEuODcyLDMuMDY3LTQuNzUsNy40NzgtNy43MTksOS4zNTZj
+LTIuOTY5LDEuODc4LTYuNTQ5LDAuNDUtMTEuMDE5LDEuODIyDQogIAkJYy00
+LjQ3LDEuMzcyLTEzLjY4NSw2Ljk3Ni0xNy4wNjEsNi42NWMtMy4zNDItMC42
+ODQtNi45NTItNS4wMDEtNC4wMTMtOS43NjhDMjIxLjk5MSwxMTEuNDIsMjM1
+LjI3LDEwMi4yNCwyMzkuOTEyLDk5LjA4MXoiLz4NCiAgPC9nPg0KICA8ZyBj
+bGlwLXBhdGg9InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwtcnVs
+ZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVENUE5
+IiBkPSJNMTY1LjU2NSw5OC4xNDENCiAgCQljNS41MzIsMC41MzQsMTAuNzc5
+LDEwLjQ1NSwxMS43MzEsMTMuNDQzYzAuOTUyLDIuOTg4LTIuMDE3LDEuNjE1
+LTUuOTQ4LDMuNzdjLTMuOTMxLDIuMTU1LTExLjU1NCw3LjIxMS0xNi43ODQs
+OS45NjUNCiAgCQljLTUuMjY0LDMuMTEyLTcuNTI0LDcuMjM5LTEzLjQzMyw3
+LjM5MmMtNS42MDIsMC4xODMtMjEuNzg4LTIuNDY3LTIxLjQwNi02LjQxMmMw
+LjM4MS0zLjk0NiwxNS44NjYtMTMuMzEyLDIzLjQ5LTE4LjM2OQ0KICAJCUMx
+NTAuNzY5LDEwMy41OTEsMTU5LjMxNCw5OC42MjMsMTY1LjU2NSw5OC4xNDF6
+Ii8+DQogIDwvZz4NCiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzRfKSI+
+DQogIAk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZl
+bm9kZCIgZmlsbD0iI0ZFRDVBOSIgZD0iTTIwMC43NDcsMTE1LjA0NA0KICAJ
+CWM1LjMzNS0wLjU3LDExLjg5NiwyLjIzNCwxMy40NjYsNS4yNzhjMS41Njks
+My4wNDQtMS4xMDQsOC4yMS00LjI4OCwxMi4yNDJjLTMuMTg0LDQuMDMyLTku
+ODkyLDkuMTY5LTE0Ljc4NCwxMS41OQ0KICAJCWMtNC44OTIsMi40Mi03Ljk3
+Myw1LjM3Ny0xNC4zMzEsMy42NzhjLTYuMzU4LTEuNjk5LTIyLjExMi05LjAw
+Ni0yMy44ODUtMTMuMTU1Yy0xLjc3My00LjE0OSw1LjEwNC03LjgyNCwxMi4y
+NTQtMTEuMTExDQogIAkJQzE3Ni4zMjgsMTIwLjI3OSwxOTQuMzUxLDExNi45
+NTcsMjAwLjc0NywxMTUuMDQ0eiIvPg0KICA8L2c+DQogIDxnIGNsaXAtcGF0
+aD0idXJsKCNTVkdJRF80XykiPg0KICAJPHBhdGggZmlsbC1ydWxlPSJldmVu
+b2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRUQ1QTkiIGQ9Ik0z
+MTMuODQxLDkxLjQ0NA0KICAJCWMyLjA2LDIuNjEyLTIuOTQzLDE4LjUzMi01
+LjA5MSwyMi45NTJjLTIuMTQ4LDQuNDItMi43MTgsNS4xMDItNy4xNSwzLjk0
+N2MtNC40MzItMS4xNTUtMTcuOTM4LTcuMzcyLTE4Ljc5Ni0xMC41DQogIAkJ
+Yy0wLjg1Ny0zLjEyOSw3LjkzMi01LjkyMywxMy4wMDItOC42NDhDMzAwLjg3
+Niw5Ni40NywzMTIuMTA2LDg5LjAyMSwzMTMuODQxLDkxLjQ0NHoiLz4NCiAg
+PC9nPg0KICA8ZyBjbGlwLXBhdGg9InVybCgjU1ZHSURfNF8pIj4NCiAgCTxw
+YXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBm
+aWxsPSIjRkVENUE5IiBkPSJNMzI1LjI5Niw5OS4xMjcNCiAgCQljMi42OTUt
+MS4yNjcsNy44MDYsMC42ODUsMTEuNDg2LDQuMjM0YzMuNjgsMy41NDksMTAu
+NiwxMy4wMTksOS45NzksMTcuMTA2Yy0wLjYyMSw0LjA4Ny04LjcyNCw3LjY3
+Ny0xMy42NzQsNy44MzkNCiAgCQljLTQuOTUsMC4xNjItMTQuNTM4LTMuNTc4
+LTE2LjYxMi02LjM5OGMtMi4wNzQtMi44MiwxLjk3MS02Ljc0MSwzLjU0OS0x
+MC40NzVDMzIxLjYwMiwxMDcuNjk5LDMyMi44OTMsMTAwLjE2LDMyNS4yOTYs
+OTkuMTI3eiIvPg0KICA8L2c+DQogIDxnIGNsaXAtcGF0aD0idXJsKCNTVkdJ
+RF80XykiPg0KICAJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1
+bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRUQ1QTkiIGQ9Ik0yNzIuMTU1LDExMS4z
+MzgNCiAgCQljNS4xMiwxLjU4MywxOS40MjEsNy42OCwyMS41MzIsMTEuNTEy
+YzIuMTExLDMuODMyLTQuODI4LDguMjQtOC41OTEsMTEuODY4Yy0zLjcyOCwz
+LjI2OC0xMC45NDUsMTAuNTUyLTE0LjU2NCw5LjQ3Nw0KICAJCWMtMy42MTgt
+MS4wNzUtNi4wNjItMTEuMTA2LTcuNDItMTYuMzE2Yy0xLjM1OC01LjIxLTEu
+OTYyLTExLjc5OS0wLjQ1NS0xNC41NTVDMjY0LjE2NSwxMTAuNTY2LDI2Ny4w
+MzUsMTA5Ljc1NSwyNzIuMTU1LDExMS4zMzh6Ig0KICAJCS8+DQogIDwvZz4N
+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzRfKSI+DQogIAk8cGF0aCBm
+aWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0i
+I0ZFRDVBOSIgZD0iTTM1Mi4zMjIsNTEuNTYzDQogIAkJYzcuMjc4LDEuNzg4
+LDI4LjgzMywxMC4wMTgsNDAuNTE3LDE0LjQwMWMxMS42ODMsNC4zODMsMTku
+NDM4LDcuNjY0LDMwLjU0LDExLjYyOWMxMS4xMDMsMy45NjYsMzYuNzMsOC42
+MTEsMzYuNjIyLDEyLjk0DQogIAkJYy0wLjEwOCw0LjMyOS0yNi4zMzEsMTIu
+Mjg0LTM3Ljg4NCwxMi45NzZjLTExLjQ4My0wLjAyNC0xOS44NDktNi42MTgt
+MzAuNTc1LTExLjI3MUMzODEuMTkzLDg2Ljg5OCwzNjYuMyw4MC4zOTcsMzU5
+LjEzLDc0LjI4DQogIAkJYy03LjE3LTYuMTE3LTkuMTc2LTE0LjI2Ny0xMC4z
+NjgtMTcuOTk4QzM0Ny42MDUsNTIuMTkyLDM0NC42NjgsNTAuNDYyLDM1Mi4z
+MjIsNTEuNTYzeiIvPg0KICA8L2c+DQogIDxnIGNsaXAtcGF0aD0idXJsKCNT
+VkdJRF80XykiPg0KICAJPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlw
+LXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRUQ1QTkiIGQ9Ik0yMzkuODUsMTI0
+LjQ3Mg0KICAJCWMzLjc4OC0wLjY5MSwxMC4zMi0wLjkwNSwxMy41NzgsMC42
+NzhjMy4yNTgsMS41ODIsNC4zNjksNi4xMjcsNS42NDMsOC45OTZjMS4yNzMs
+Mi44Nyw0LjY5Nyw1Ljk0NywyLjU5MSw4LjQ5DQogIAkJYy0yLjA4NiwyLjMz
+NC0xMS4zNzksNS40NTEtMTUuMDg2LDUuMzA0Yy0zLjcwNy0wLjE0Ny01LjI0
+Ny0zLjQ2NS03LjcyOC02LjY2MmMtMi44MDktMy4wMTgtNy41MDYtOC45NjUt
+Ny41NS0xMS43MTYNCiAgCQlDMjMxLjU1OSwxMjYuODQxLDIzNS40MjcsMTI1
+LjMxMywyMzkuODUsMTI0LjQ3MnoiLz4NCiAgPC9nPg0KICA8ZyBjbGlwLXBh
+dGg9InVybCgjU1ZHSURfNF8pIj4NCiAgCTxwYXRoIGZpbGwtcnVsZT0iZXZl
+bm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkVENUE5IiBkPSJN
+MjI0LjEwMiwxMzAuOTcNCiAgCQljMy44ODcsMi4yNzgsMTMuNDIzLDEzLjc3
+NSwxMy4xNzksMTguNzI0Yy0wLjI0NSw0Ljk0OS0xMC43OSw4Ljc0OC0xNC42
+NzgsMTAuNTQycy0zLjk1MiwwLjk0Mi04LjY4Mi0wLjINCiAgCQljLTQuNzI5
+LTEuMTQzLTE3LjY1NC00LjIzOC0xOS4xMTEtNy4xMjhjLTEuNDU3LTIuODkx
+LDcuODI2LTcuMDIzLDExLjAxOC05LjgzN2MzLjE5Mi0yLjgxNCw1Ljc2OC01
+LjU4MSw4LjcxNy03LjUxOQ0KICAJCUMyMTcuNDkzLDEzMy42MTMsMjIwLjIx
+NiwxMjguNjkxLDIyNC4xMDIsMTMwLjk3eiIvPg0KICA8L2c+DQogIDxnIGNs
+aXAtcGF0aD0idXJsKCNTVkdJRF80XykiPg0KICAJPHBhdGggZmlsbC1ydWxl
+PSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRUQ1QTki
+IGQ9Ik0xMDYuMTMyLDkzLjQwMg0KICAJCWMzLjg0NywxLjYzNiwxNC44ODIs
+OC4wODEsMTUuMjIsMTIuNTUxYzAuMzM4LDQuNDcxLTguNzQxLDExLjU4MS0x
+My4yMjMsMTMuODQ3Yy00LjQ4MiwyLjI2Ni03Ljk4OCwxLjAzMy0xNC4yODYt
+MC4yMDQNCiAgCQljLTYuMjk4LTEuMjM2LTIxLjcxOS00LjEzOC0yMy41MDMt
+Ny4yMTRjLTEuNzg0LTMuMDc3LDguNzIyLTcuNzI2LDEyLjgzMS0xMC44MmM0
+LjEwOS0zLjA5NCw4LjQ3OC02Ljg1MSwxMi40MDgtOC4yMTkNCiAgCQlDOTku
+NTA5LDkxLjk3NiwxMDMuOTU2LDkzLjM1MiwxMDYuMTMyLDkzLjQwMnoiLz4N
+CiAgPC9nPg0KICA8ZyBjbGlwLXBhdGg9InVybCgjU1ZHSURfMTFfKSI+DQog
+IAkJPGVsbGlwc2UgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODgzIC0wLjE1MjIg
+MC4xNTIyIDAuOTg4MyAtMjkuMDU3MSA1MS40MzM1KSIgZmlsbD0iI0NDMzMz
+MyIgc3Ryb2tlPSIjRkVENUE5IiBzdHJva2Utd2lkdGg9IjEuNiIgc3Ryb2tl
+LWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBjeD0i
+MzIxLjQyNyIgY3k9IjIxNS41MTQiIHJ4PSIyMC4xMDkiIHJ5PSIxOS4xMjQi
+Lz4NCiAgPC9nPg0KPC9zdmc+DQo=
+"/>
+    </g>
+  </g></g><g><g>
+    <g id="zoom_box" data-zoom-type="top" data-element-type="zoombox">
+      <rect id="zoom_small_rect" x="228" y="128" height="20" width="25" fill="none" stroke="white" stroke-width="2"/>
+      <path id="zoom_center" data-colored="true" d="M228 148 L51 269 L749 269 L253 148 z" fill="#aabbff" stroke="white" stroke-width="2" opacity="0.5"/>
+      <rect id="zoom_large_rect" x="51" y="269" height="884" width="698" fill="none" stroke="white" stroke-width="2"/>
+      <text x="400" y="286" text-anchor="middle" font-family="Verdana" font-size="16" fill="black" pointer-events="none"/>
+    </g>
+    <g id="edit_symbols">
+    </g>
+  </g></g><g><g>
+    
+    
+    
+      
+      
+    
+    <g id="membrane_visualization" data-element-type="membrane" data-location-id="460" data-complex="false" data-default-color="#4BC8F2">
+      
+        <path data-colored="true" d="M108 757 C108 707 158 657 208 657 C324 657 474 657 590 657 C640 657 690 707 690 757 C690 829 690 923 690 995 C690 1045 640 1095 590 1095 C474 1095 324 1095 208 1095 C158 1095 108 1045 108 995 C108 923 108 829 108 757 " fill="none" stroke="#4BC8F2" stroke-width="50"/>
+      
+      
+    </g>
+  </g></g><g><g>
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    <g id="location" transform="translate(315,335)" data-element-type="protein" data-location-id="2811" data-element-id="DB00054" data-default-color="url(#protein_drug_color)">
+      <ellipse data-colored="true" cx="75" cy="35" rx="75" ry="35" stroke="#000000" stroke-width="1" pointer-events="visible" fill="url(#protein_drug_color)"/>
+      
+      <text x="75" y="27" font-family="Verdana" text-anchor="middle" font-size="10" fill="black" pointer-events="none">
+        
+          <tspan x="75" dy="10">Abciximab</tspan>
+        
+      </text>
+      <g transform="translate(120,30) scale(0.5,0.5)">
+        <path d="M50.615,7.253 C51.719,9.179 52.362,11.202 51.077,14.509 L42.803,27.114 L29.171,18.356 L37.037,5.837 C39.581,3.252 42.122,2.666 44.395,2.909 C46.669,3.151 49.512,5.326 50.615,7.253 z" fill="#00F900"/>
+        <path d="M51.115,7.753 C52.219,9.679 52.862,11.702 51.577,15.009 L43.303,27.614 L29.671,18.856 L37.537,6.337 C40.081,3.752 42.622,3.166 44.895,3.409 C47.169,3.651 50.012,5.826 51.115,7.753 z" fill-opacity="0" stroke="#000000" stroke-width="2.25" stroke-linejoin="round"/>
+        <path d="M21.252,38.28 C20.158,36.366 19.521,34.356 20.8,31.069 L29.027,18.535 L42.556,27.226 L34.734,39.675 C32.206,42.246 29.682,42.83 27.425,42.591 C25.167,42.352 22.346,40.193 21.252,38.28 z" fill="#3DACFF"/>
+        <path d="M21.752,38.78 C20.658,36.866 20.021,34.856 21.3,31.569 L29.527,19.035 L43.056,27.726 L35.234,40.175 C32.706,42.746 30.182,43.33 27.925,43.091 C25.667,42.852 22.846,40.693 21.752,38.78 z" fill-opacity="0" stroke="#000000" stroke-width="2.25" stroke-linejoin="round"/>
+        <path d="M41.565,7.288 C42.023,7.039 42.87,6.841 43.311,6.74 C43.753,6.638 44.21,6.898 44.2,6.572 L43.289,4.778 C42.661,4.652 40.979,5.118 40.185,5.672 C39.391,6.226 38.542,7.442 38.483,8.07 L39.879,9.538 C40.225,9.56 40.275,8.606 40.563,8.236 C40.851,7.866 41.107,7.537 41.565,7.288 z" fill="#FFFFFF"/>
+        <path d="M3.575,32.338 C4.605,30.413 5.967,28.815 9.463,28.125 L24.625,28.27 L24.625,44.105 L9.757,44.25 C6.188,43.524 4.311,41.744 3.28,39.747 C2.25,37.749 2.544,34.263 3.575,32.338 z" fill="#FF4C00"/>
+        <path d="M4.075,32.838 C5.105,30.913 6.467,29.315 9.963,28.625 L25.125,28.77 L25.125,44.605 L10.257,44.75 C6.688,44.024 4.811,42.244 3.78,40.247 C2.75,38.249 3.044,34.763 4.075,32.838 z" fill-opacity="0" stroke="#000000" stroke-width="2.25" stroke-linejoin="round"/>
+        <path d="M45.168,40.037 C44.132,41.962 42.762,43.56 39.247,44.25 L24,44.105 L24,28.27 L38.951,28.125 C42.54,28.851 44.428,30.631 45.464,32.628 C46.5,34.626 46.204,38.112 45.168,40.037 z" fill="#FFFB23"/>
+        <path d="M45.668,40.537 C44.632,42.462 43.262,44.06 39.747,44.75 L24.5,44.605 L24.5,28.77 L39.451,28.625 C43.04,29.351 44.928,31.131 45.964,33.128 C47,35.126 46.704,38.612 45.668,40.537 z" fill-opacity="0" stroke="#000000" stroke-width="2.25" stroke-linejoin="round"/>
+        <path d="M8.596,32.198 C9.075,32.018 9.923,31.946 10.365,31.91 C10.808,31.874 11.213,32.198 11.25,31.874 L10.623,29.966 C10.034,29.75 8.338,29.966 7.49,30.398 C6.643,30.83 5.647,31.91 5.5,32.522 L6.643,34.178 C6.974,34.25 7.159,33.314 7.49,32.99 C7.822,32.666 8.117,32.378 8.596,32.198 z" fill="#FFFFFF"/>
+      </g>  
+      
+    </g>
+  </g></g><g><g>
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    <g id="location" transform="translate(315,640)" data-element-type="protein" data-location-id="2812" data-element-id="P08514" data-default-color="url(#protein_color_2)">
+      <ellipse data-colored="true" cx="75" cy="35" rx="75" ry="35" stroke="#000000" stroke-width="1" pointer-events="visible" fill="url(#protein_color_2)"/>
+      
+      <text x="75" y="27" font-family="Verdana" text-anchor="middle" font-size="10" fill="black" pointer-events="none">
+        
+          <tspan x="75" dy="10">Integrin</tspan>
+        
+      </text>
+      
+    </g>
+  </g></g><g><g>
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    <g id="location" transform="translate(315,610)" data-element-type="protein" data-location-id="2813" data-element-id="P05106" data-default-color="url(#protein_color_1)">
+      <ellipse data-colored="true" cx="75" cy="35" rx="75" ry="35" stroke="#000000" stroke-width="1" pointer-events="visible" fill="url(#protein_color_1)"/>
+      
+      <text x="75" y="27" font-family="Verdana" text-anchor="middle" font-size="10" fill="black" pointer-events="none">
+        
+          <tspan x="75" dy="10">Integrin</tspan>
+        
+      </text>
+      
+    </g>
+  </g></g><g><g>
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+    
+    <path data-colored="true" d="M390 610 C389 572 391 444 390 405 " fill="none" stroke="#FF0000" stroke-width="5"/>
+    <path id="arrow_path" data-colored="true" d=" M 375.0051912097073 610.3946002313235 L 390 610 L 404.9948087902927 609.6053997686765" fill="none" stroke="#FF0000" stroke-width="5"/>
+    
+  </g></g></g>
+	</svg>
